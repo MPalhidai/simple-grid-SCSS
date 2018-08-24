@@ -1,0 +1,18 @@
+@import "mixins.less";
+@import "variables.less";
+
+.container {
+
+  .container-fixed();
+
+  [class*='col-'] {
+    float: left;
+    width: 100%;
+  }
+
+  .make-grid(@container-xs);
+  .make-grid(@container-sm);
+  .make-grid(@container-md);
+  .make-grid(@container-lg);
+
+}
