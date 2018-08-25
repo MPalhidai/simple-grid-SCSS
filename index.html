@@ -2,56 +2,62 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/stylesheets/master.css">
-    <title>Design Heat Map</title>
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>LESS Grid System</title>
   </head>
 
   <body>
-    <header>
-      <div class="navbar">
-        <div class="box-2 nav-item">
-          2
-        </div>
-        <div class="box-3 nav-item">
-          3
-        </div>
-        <div class="box-4 nav-item">
-          4
-        </div>
-        <div class="box-5 nav-item">
-          5
-        </div>
-        <div class="box-6 nav-item">
-          6
-        </div>
-        <div class="box-7 nav-item">
-          7
-        </div>
-        <div class="box-8 nav-item">
-          8
-        </div>
+    <section>
+      <div class="container">
+        <h2>Responsive(ish) Grid System</h2>
+        <h3>Made from a recursive mixin with LESS</h3>
+        <h4>
+          <button type="button" class="btn btn-less-1">3D</button>
+          <button type="button" class="btn btn-less-2">Buttons</button>
+          <button type="button" class="btn btn-less-3">w/ LESS</button>
+        </h4>
       </div>
-    </header>
 
-    <main>
-      <div class="box-1">
-        1
-      </div>
-      <div class="box-9 pane float-left">
-        <div class="box-info">
-          9
+      <div class="container">
+        <div class="col-5">
+          <span>col-5</span>
+        </div>
+        <div class="col-5">
+          <span>col-5</span>
+        </div>
+        <div class="col-2">
+          <span>col-2</span>
         </div>
       </div>
-      <div class="box-10 pane float-right">
-        <div class="box-info text-right">
-          10
-        </div>
-      </div>
-    </main>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <div class="container">
+        <div class="col-3">
+          <span>col-3</span>
+        </div>
+        <div class="col-3">
+          <span>col-3</span>
+        </div>
+        <div class="col-3">
+          <span>col-3</span>
+        </div>
+        <div class="col-3">
+          <h1 id="resize-me">&larr;</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-9">
+          <span>col-9</span>
+        </div>
+        <div class="col-3">
+          <span>col-3</span>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
