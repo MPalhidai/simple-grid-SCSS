@@ -2,13 +2,16 @@ html, body {
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Roboto';
   background: #ECF0F1;
 }
+
 .container h2, h3, h4 {
   text-align: center;
 }
+
 [class*='col-'] {
   text-align: center;
   height: 200px;
@@ -28,6 +31,7 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
+
 #resize-me {
   position: absolute;
   right: 20px;

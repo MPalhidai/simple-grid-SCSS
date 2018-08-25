@@ -1,0 +1,35 @@
+.btn {
+  padding: 10px;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  color: #fafafa;
+}
+.btn.btn-less-1 {
+  background: #17805B;
+  box-shadow: 0px 3px 0px #0f553c;
+}
+.btn.btn-less-1:active {
+  box-shadow: 0px 1px 0px #0f553c;
+  position: relative;
+  top: 2px;
+}
+.btn.btn-less-2 {
+  background: #5a5a5a;
+  box-shadow: 0px 3px 0px #414141;
+}
+.btn.btn-less-2:active {
+  box-shadow: 0px 1px 0px #414141;
+  position: relative;
+  top: 2px;
+}
+.btn.btn-less-3 {
+  background: #6A598D;
+  box-shadow: 0px 3px 0px #52456e;
+}
+.btn.btn-less-3:active {
+  box-shadow: 0px 1px 0px #52456e;
+  position: relative;
+  top: 2px;
+}

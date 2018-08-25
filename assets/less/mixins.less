@@ -21,3 +21,37 @@
     .generate-columns(@container-width, @grid-columns);
   }
 }
+
+.button-creater(@color) {
+  background: @color;
+  box-shadow: 0px 3px 0px darken(@color, 10%);
+
+  &:active {
+    box-shadow: 0px 1px 0px darken(@color, 10%);
+    position: relative;
+    top: 2px;
+  }
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  font-size: 1.25rem;
+  outline: none;
+  cursor: pointer;
+  color: #fafafa;
+
+  &.btn-less-1 {
+    .button-creater(#17805B);
+  }
+
+  &.btn-less-2 {
+    .button-creater(#5a5a5a);
+  }
+
+  &.btn-less-3 {
+    .button-creater(#6A598D);
+  }
+}
